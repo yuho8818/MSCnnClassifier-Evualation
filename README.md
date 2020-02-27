@@ -28,3 +28,8 @@
   `test_steps`测试步数
   `test_generator_random_state`测试随机数
   `use_best_weights`是否使用最佳权重
+
+## 案例简介
+1. 数据集划分放在data_split下，images目录下为案例数据集，针对40种车标分类
+2. experiments目录存放个词模型输出结果。
+3. models为模型文件夹，可自定义cnn模型
